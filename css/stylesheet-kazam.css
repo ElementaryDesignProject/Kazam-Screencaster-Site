@@ -1,0 +1,207 @@
+/* #d030a8 */
+html, body{
+	width: 100%;
+	height: 100%;
+	height: auto;
+	background: url('../images/background.png') repeat;
+	margin: 0 0 30px 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	overflow-y: auto;
+}
+
+a,b, h1, h2, h3, h3, h4, h5, p, li{
+	font-family: 'open sans';
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	text-decoration: none;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/* HEADER */
+nav{
+	background-color: #000;
+	width: 700px;
+	height: 40px;
+	margin: 10px 0 0 0;
+	opacity: 0.7;
+	border-radius: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 99;
+}
+
+nav ul{
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	padding: 0px 0 0 30px;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+nav ul li{
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	display: block;
+	float: left;
+	height: 100%;
+}
+
+nav ul li a{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	white-space: nowrap;
+	text-align: center;
+	height: 100%;
+	font-size: 18px;
+	padding: 5px 25px 0 25px;
+	transition: color 0.3s ease 0s;
+}
+
+nav ul li a:hover, .hovered{
+	/*background-color: #d030a8;*/
+	color: #d030a8;
+	transition: color 0.3s ease 0s;
+}
+
+/* BACKGROUNDS */
+.download{
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.download p{
+	font-size: 18px;
+}
+
+
+/* CONTENT POSITIONS */
+.content{
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	width: 700px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 0 50px 0;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 8px;
+}
+
+.content h1, .download h1{
+	font-size:52px;
+	color: #d030a8;
+	margin: 0;
+	padding: 0;
+	opacity: 1.0;
+}
+
+.content h2, .download h2{
+	margin: 0 0 25px 0;
+	color: grey;
+	opacity: 1.0;
+}
+
+.buttons{
+	margin: 10px 0 0 0;
+	opacity: 1.0;
+}
+
+.buttons a{
+	color: #FFF;
+	text-decoration: none;
+	transition: color 1s ease 0s;
+	padding: 10px 0 0 0;
+}
+
+.buttons a:hover{
+	/*color: #f0b7ee;*/
+	text-decoration: none;
+	transition: color 1s ease 0s;
+}
+
+.button-only{
+	height: 45px;
+	width: 300px;
+	background-color: #dd4814;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px #CCC;
+	transition: all 1s ease 0s;
+	position: relative;
+	opacity: 1.0;
+}
+
+.button-only:hover{
+	box-shadow: 3px 3px 20px #CCC;
+	background-color: #bf3201;
+	transition: all 0.5s ease 0s;
+}
+
+article{
+	margin-top: 25px;
+}
+
+article p, article li{
+	font-size: 18px;
+	font-weight: 300;
+	padding: 0;
+	text-align: left;
+	margin: 10px 20px 0 20px;
+}
+
+article li{
+	margin-left: 60px;
+}
+
+article img{
+	margin: 0px auto 0px auto;
+}
+
+article .left{
+	float: left !important;
+	margin: 10px 20px;
+}
+
+article .involved{
+	padding: 20px 0 0 0 !important;
+}
+
+.gallery{
+	text-align: center;
+}
+
+.gallery a{
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+.gallery a:last-child{
+	padding-right: 0px;
+}
+
+.title{
+	font-family: 'open sans';
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	font-size: 24px;
+	color: #333;
+}

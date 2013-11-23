@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kazam Screencaster - About</title>
+		
+		<!-- SEO Metatags -->
+		<meta name="description" content="Kazam Screencaster is a simple but powerfull screen recorder for Ubuntu and Ubuntu-based distributions. Fast as an eagle, Kazam will not leave you behind." />
+		<meta name="keywords" content="screen, recorder, fast, window, ubuntu, record, cast" />
+		<meta name="robots" content="index, follow" />
+
+		<!-- Facebook Metatags -->
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="Kazam Screencaster is a simple but powerfull screen recorder for Ubuntu and Ubuntu-based distributions. Fast as an eagle, Kazam will not leave you behind." />
+
+		<!-- Loading CSS -->
+		<link rel="stylesheet" href="../css/stylesheet-kazam.css">
+		<link rel="stylesheet" href="../css/jquery.fancybox.css">
+	</head>
+	<body>
+		
+		<div class="download">
+			<div class="content">
+				
+				<!-- Navbar -->
+				<header>
+					<nav>
+						<ul>	
+							<li><a href="../index.html" id="home" alt="Home Page" title="Home Page">Home</a></li>
+							<li><a href="#" class="hovered" alt="Know Kazam" title="Know Kazam" id="about">About</a></li>
+							<li><a href="downloads.html" alt="Download Kazam Screencaster" title="Download Kazam Screencaster" id="downloads">Downloads</a></li>
+							<li><a href="involved.html" alt="Get into the project!" title="Get into the project!" id="involved">Get Involved</a></li>
+							<li><a href="contact.html" alt="Contact Us" title="Contact Us" id="contact">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+				
+				<main>
+					<article>
+						<img src="../images/kazam-2.jpg" alt="Kazam is the most powerfull screen recorder for Ubuntu" title="Kazam is the most powerfull screen recorder for Ubuntu"/>
+						<p>
+							Kazam Screencaster is a simple and powerfull screen recorder that capture content of your screen and save this in a video file. Available to Ubuntu, this is the best open-source tool for this purpose. 
+							<br /><br />
+							Feel free to explore our website, see the software images, download the Kazam or contact our team.
+						</p>
+
+						<br />
+
+						<!-- Images / Slideshow -->
+						<div class="gallery">
+							<!-- Image 1 -->
+							<a class="fancybox" rel="gallery1" href="../images/kazam-3.jpg" alt="Kazam Screencaster - Recording Ubuntu screen" title="Kazam Screencaster - Recording Ubuntu screen">
+								<img src="../images/kazam-3.jpg" height="150" width="200" alt="Kazam Screencaster - Recording Ubuntu screen" title="Kazam Screencaster - Recording Ubuntu screen"/>
+							</a>
+
+							<!-- Image 2 -->
+							<a class="fancybox" rel="gallery1" href="../images/kazam-record-section.png" alt="Kazam Screencaster - Recording a section of window" title="Kazam Screencaster - Recording a section of window">
+								<img src="../images/kazam-record-section.png" alt="Kazam Screencaster - Recording a section of window" title="Kazam Screencaster - Recording a section of window" height="150" width="200"/>
+							</a>
+
+							<!-- Image 3 -->
+							<a class="fancybox" rel="gallery1" href="../images/kazam-1.png" alt="Kazam Screencaster - Main menu - Record your screen" title="Kazam Screencaster - Main menu - Record your screen">
+								<img src="../images/kazam-1.png" alt="Kazam Screencaster - Main menu - Record your screen" title="Kazam Screencaster - Main menu - Record your screen" height="150" width="200"/>
+							</a>
+						</div>
+					</article>
+				</main>
+			</div>	
+		</div>
+
+		<!-- JavaScript && jQuery -->
+		<script src="../js/jquery-2.0.3.min.js"></script>
+		<script src="../js/jquery.fancybox.pack.js"></script>
+
+		<script>
+		$(document).ready(function(){
+			$('.fancybox').fancybox({
+				openEffect: 'none',
+				closeEffect: 'none'
+			});
+		});
+		</script>
+	</body>
+</html>
