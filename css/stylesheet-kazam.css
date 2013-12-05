@@ -1,14 +1,37 @@
-/* #d030a8 */
+/* Novo HTML */
 html, body{
 	width: 100%;
 	height: 100%;
-	height: auto;
-	background: url('../images/background.png') repeat;
-	margin: 0 0 30px 0;
-	padding: 0;
+	background: url('../images/background-purple.png') repeat;
+	margin: 0px;
+	padding: 0px;
 	top: 0;
 	left: 0;
 	overflow-y: auto;
+}
+
+header{
+	width: 100%; 
+	height: 100%;
+	background-color: #F1F1F2;
+	margin-top: 1%;
+}
+
+main{
+	width: 100%;
+	height: 100%;
+	/*height: 98%;*/
+	background-color: #F1F1F2;
+	margin-bottom: 1%; /* remover esta linha ao colocar o Footer */	
+}
+
+footer span{
+	font-size: 11px;
+	font-weight: 900;
+	font-family: 'open sans';
+	color: #FFF;
+	vertical-align: middle;
+	display: inline-block;
 }
 
 a,b, h1, h2, h3, h3, h4, h5, p, li{
@@ -19,61 +42,61 @@ a,b, h1, h2, h3, h3, h4, h5, p, li{
 	text-decoration: none;
 }
 
-.center{
-	margin-left: auto;
-	margin-right: auto;
-
+h1{
+	font-size:52px;
+	color: #373435;
+	margin: 0;
+	padding: 0;
+	opacity: 1.0;	
 }
 
-/* HEADER */
-nav{
-	background-color: #000;
-	width: 700px;
-	height: 40px;
-	margin: 10px 0 0 0;
-	opacity: 0.7;
-	border-radius: 8px;
-	margin-left: auto;
-	margin-right: auto;
-	z-index: 99;
+h2{
+	color: #8B4F8B;
+	font-weight: 500;
+	opacity: 1.0;
 }
 
-nav ul{
-	margin-left: auto;
-	margin-right: auto;
-	list-style: none;
-	padding: 0px 0 0 30px;
+
+/* The section at the top of index.html page */
+#top-kazam{
+	margin: 10px 0px 0px 0px;
+	padding: 40px 0px 0px 0px;
+}
+
+#features-kazam{
+	width: 50%;
 	height: 100%;
-	text-align: center;
-	vertical-align: middle;
+	text-align: left;
 }
 
-nav ul li{
-	text-align: center;
-	vertical-align: middle;
-	position: relative;
-	display: block;
-	float: left;
-	height: 100%;
-}
-
-nav ul li a{
-	color: #FFF;
+#features-kazam h2, strong{
+	color: #373435;
+	font-size: 24px;
+	font-family: 'open sans';
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
 	text-decoration: none;
-	display: block;
-	white-space: nowrap;
-	text-align: center;
-	height: 100%;
-	font-size: 18px;
-	padding: 5px 25px 0 25px;
-	transition: color 0.3s ease 0s;
+	margin: 0;
+	padding: 0;
 }
 
-nav ul li a:hover, .hovered{
-	/*background-color: #d030a8;*/
-	color: #d030a8;
-	transition: color 0.3s ease 0s;
+/* Customize the logo (image) of the index.html page */
+#logo{
+	display: block;
+	margin: 0px auto;
 }
+
+/* Center the element that use this class */
+.center{
+	margin: 0px auto;
+	display: block;
+	text-align: center;
+}
+
+
+
+/* OLDEEEERRRRRRR */
 
 /* BACKGROUNDS */
 .download{
